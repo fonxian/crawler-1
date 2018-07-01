@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-from models import *
+from app.models import *
 import datetime
 
 def insert_build_main(company_id,credit_code,company_name,company_person,area,business_code,address):

@@ -1,12 +1,11 @@
 # -*- coding: UTF-8 -*-
 
 from urllib import request
-import chardet
 from bs4 import BeautifulSoup
 import requests
 import time
 
-from build_db import *
+from app.build_db import *
 
 def a():
     for i in range(10):

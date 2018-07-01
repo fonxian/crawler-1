@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-
 from . import db
 
 class Build(db.Model):
