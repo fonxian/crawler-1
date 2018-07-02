@@ -1,6 +1,7 @@
 from . import main
+from ..build_spider import *
 
 
 @main.route('/')
 def index():
-    print('xxxxx')
+    crawl_all()
